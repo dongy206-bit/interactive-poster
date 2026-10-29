@@ -1,13 +1,13 @@
 
-* {
-  box-sizing: border-box;
+*{
+  box-sizing : border-box;
 }
 
 body {
   margin: 0;
   padding: 40px 24px;
   min-height: 100vh;
-  background-color: #fff7e4;
+  background-color: #efe5cc;
   color: #2e2a1f;
   font-family: "Space Mono", monospace;
   display: flex;
@@ -23,6 +23,7 @@ body {
   flex-basis: 280px;
   max-width: 380px;
 }
+
 .artist {
   display: inline-block;
   transform: rotate(180deg);
@@ -79,9 +80,8 @@ body {
   color: #7c3f22;
 }
 
-
 .house {
-  position: relative;      
+  position: relative;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 500px;
@@ -178,7 +178,6 @@ body {
 .stop:hover .tickets {
   display: inline-block;
 }
-
 
 .city:hover {
   color: #c42a6e;
